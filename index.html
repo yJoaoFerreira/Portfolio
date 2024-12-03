@@ -5,10 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>João Ferreira | Portfólio</title>
     <meta name="description" content="Portfólio do Desenvolvedor João Ferreira para compartilhar projetos e habilidades desenvolvidas.">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="dev.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>João Ferreira</h1>
+    <header class="header">
+        <nav class="header__nav">
+
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+            
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        
+        <div class="header__brand">
+            <a href="#home">
+                <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+            </a>
+        </div>
+
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+    </header>
+
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a href="#home" class="menu__link active">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#projetos" class="menu__link">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#sobre" class="menu__link">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+
+            <li class="menu__item">
+                <a href="#contato" class="menu__link active">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
