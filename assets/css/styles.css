@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #f0f0f0;
+    --primary-bg-color: #111217;
+    --secundary-bg-color: #28292e;
+    --border-color: #28292e;
+    --title-color: #9a9a9c;
+    --link-color: #9a9a9c;
+    --icon-color: #c7c8c9;
+}
+
 * {
     margin: 0;
     padding: 0;
