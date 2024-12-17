@@ -5,3 +5,5 @@ Meu Portfolio pessoal, onde irei apresentar minhas habilidades de forma dinâmic
 - HTML
 - CSS
 - JavaScript
+
+## Deploy
