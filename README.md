@@ -8,4 +8,4 @@ Meu Portfolio pessoal, onde irei apresentar minhas habilidades de forma dinâmic
 
 ## Deploy
 
-N/A
+- N/A
